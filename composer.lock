@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c61ff82cbf0142a401a48a8161e1595a",
+    "content-hash": "28b7a8ac40300ad3565da1c39b50acfd",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1755,6 +1755,57 @@
                 }
             ],
             "time": "2022-03-14T12:44:37+00:00"
+        },
+        {
+            "name": "muhammadnan/tripay-payment-gateway",
+            "version": "1.0.5.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/muhammadnan/tripay-payment-gateway.git",
+                "reference": "fea8cba266bdde2becb8471978cf45996df2bc68"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/muhammadnan/tripay-payment-gateway/zipball/fea8cba266bdde2becb8471978cf45996df2bc68",
+                "reference": "fea8cba266bdde2becb8471978cf45996df2bc68",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/guzzle": "^7.0",
+                "symfony/http-foundation": "^5.2",
+                "vlucas/phpdotenv": "^5.3"
+            },
+            "require-dev": {
+                "pestphp/pest": "^1.18",
+                "symfony/var-dumper": "^5.1.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Tripay\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Muhammad Adnan",
+                    "email": "naravaya04@gmail.com"
+                },
+                {
+                    "name": "Teguh Rijanandi",
+                    "email": "teguhrijanandi02@gmail.com"
+                }
+            ],
+            "description": "PHP Payment Gateway Tripay Library",
+            "homepage": "https://payment.tripay.co.id",
+            "support": {
+                "issues": "https://github.com/muhammadnan/tripay-payment-gateway/issues",
+                "source": "https://github.com/muhammadnan/tripay-payment-gateway/tree/1.0.5.1"
+            },
+            "time": "2022-02-15T23:24:51+00:00"
         },
         {
             "name": "nesbot/carbon",
